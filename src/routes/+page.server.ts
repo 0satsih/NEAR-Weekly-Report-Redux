@@ -429,7 +429,20 @@ ORDER BY
 
 	// Construct object of results of different queries.
 	const data = {
-		swap_distributions: results[0]
+		daily_gas_7days: results[0],
+		daily_gas_30days: results[1],
+		daily_active_users_7days: results[2],
+		daily_active_users_30days: results[3],
+		daily_new_users_7days: results[4],
+		daily_new_users_30days: results[5],
+		daily_transactions_7days: results[6],
+		daily_transactions_30days: results[7],
+		daily_transaction_fee_7days: results[8],
+		daily_transaction_fee_30days: results[9],
+		daily_active_contracts_7days: results[10],
+		daily_active_contracts_30days: results[11],
+		daily_new_contracts_7days: results[12],
+		daily_new_contracts_30days: results[13]
 	};
 
 	if (!results) {
