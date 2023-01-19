@@ -236,7 +236,7 @@
 		<div class="static my-8 mx-6 2xl:mx-96  items-center justify-center">
 			<Tabs style="underline">
 				<TabItem open title="Summary">
-					<p class="text-sm text-white">
+					<p class="text-md text-white">
 						The purpose of this analysis is to improve upon the existing <a
 							href="https://near.org/blog/near-weekly-on-chain-data-report-december-23/"
 						>
@@ -256,63 +256,63 @@
 					</p>
 				</TabItem>
 				<TabItem title="UI/UX">
-					<b>Positives</b>
+					<b class="text-md text-white">Positives</b>
 					<ul>
-						<li>Clear report look and feel</li>
-						<li>Good flow with clear identifiable sections</li>
+						<li class="text-md text-white">Clear report look and feel</li>
+						<li class="text-md text-white">Good flow with clear identifiable sections</li>
 					</ul>
-					<b>Negatives</b>
+					<b class="text-md text-white">Negatives</b>
 					<ul>
-						<li>
+						<li class="text-md text-white">
 							Enourmous image at the top of the report, confuses reader as to what they just
 							navigated to.
 						</li>
-						<li>
+						<li class="text-md text-white">
 							Charts are almost unreadable at standard zoom, just static image with no
 							interactivity.
 						</li>
 					</ul>
 				</TabItem>
 				<TabItem title="Charts/Metrics">
-					<b>Positives</b>
+					<b class="text-md text-white">Positives</b>
 					<ul>
-						<li>Good choice of key metrics, relevant for a weekly report</li>
+						<li class="text-md text-white">Good choice of key metrics, relevant for a weekly report</li>
 					</ul>
-					<b>Negatives</b>
+					<b class="text-md text-white">Negatives</b>
 					<ul>
-						<li>
+						<li class="text-md text-white">
 							Although good choice of metrics, they are not aided with any context, how does this
 							compare to previous weeks?
 						</li>
-						<li>
+						<li class="text-md text-white">
 							Again, charts are almost unreadable as all the text is too small and there could be a
 							better choice in the type of visualisations.
 						</li>
 					</ul>
 				</TabItem>
 				<TabItem title="Language">
-					<p class="text-sm text-gray-500 dark:text-gray-400">
+					<p class="text-md text-white">
 						Overall, the language aiding the charts is clear and descriptive. The only criticism is
 						that they included language describing data that is not displayed in a chart, which can
 						be confusing.
 					</p>
 				</TabItem>
 				<TabItem title="Improvements">
-					<b>UI/UX</b>
-					<p>The improved report displayed below includes:</p>
+					<b class="text-md text-white">UI/UX</b>
+					<p class="text-md text-white">The improved report displayed below includes:</p>
 					<ul>
-						<li>More legible charts</li>
-						<li>Interactivity</li>
-						<li>Links to queries that generated the charts</li>
+						<li class="text-md text-white">More legible charts</li>
+						<li class="text-md text-white">Interactivity</li>
+						<li class="text-md text-white">Links to queries that generated the charts</li>
 					</ul>
-					<p>
+					<p class="text-md text-white">
 						This gives the reader a smoother more informed experience with clear, interactive
 						charts, and if they wish to do so, they can check the query used for themselves.
 					</p>
 					<br />
-					<b>Charts/Metrics</b>
-					<p>The improved report adds upon the exisiting by containing the following metrics:</p>
-					<ul>
+					<b class="text-md text-white">Charts/Metrics</b>
+					<p class="text-md text-white">The improved report adds upon the exisiting by containing the following metrics:</p>
+					<ul class="text-md text-white">
 						<li>Daily New Users Past 7 Days</li>
 						<li>Daily New Users Past 30 Days</li>
 						<li>Daily Active Users Past 7 Days</li>
