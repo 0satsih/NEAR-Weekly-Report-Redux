@@ -33,6 +33,7 @@
 	"type": "module",
 	"dependencies": {
 		"@flipsidecrypto/sdk": "^1.1.1",
-		"chart.js": "^4.1.2"
+		"chart.js": "^4.1.2",
+		"sourcemap-codec": "^1.4.8"
 	}
 }
