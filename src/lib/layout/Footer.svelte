@@ -23,8 +23,6 @@
 					</div>
 					<div class="row-start-2 flex place-content-center space-x-3">
 						<Github />
-						<Twitter />
-						<Github />
 					</div>
 				</div>
 			</div>

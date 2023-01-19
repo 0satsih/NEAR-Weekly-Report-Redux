@@ -5,6 +5,7 @@ import type { PageServerLoad } from './$types';
 import { FLIPSIDE_KEY } from '$env/static/private';
 
 export const load = (async () => {
+
 	const flipside = new Flipside(FLIPSIDE_KEY, 'https://node-api.flipsidecrypto.com');
 
 	const daily_gas_7days: Query = {
@@ -448,5 +449,8 @@ ORDER BY
 	if (!results) {
 		throw error(404, 'Not found');
 	}
-	return data;
+  else {
+    return data;
+  }
+	
 }) satisfies PageServerLoad;
